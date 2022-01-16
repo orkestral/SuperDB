@@ -1,0 +1,33 @@
+{
+    "name": "superdb.js",
+    "version": "1.0.0",
+    "description": "SuperDB is a javascript library with json based database",
+    "main": "./src/index.js",
+    "types": "./index.d.ts",
+    "scripts": {
+        "eslint:fix": "eslint src/ example/ --fix",
+        "eslint": "eslint src/ example/",
+        "test": "node example/index.js"
+    },
+    "author": "Orkestral",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/orkestral/SuperDB.git"
+    },
+    "devDependencies": {
+        "eslint": "^7.28.0"
+    },
+    "keywords": [
+        "database",
+        "json",
+        "fs",
+        "db",
+        "file system",
+        "superdb",
+        "super-db"
+    ],
+    "bugs": {
+        "url": "https://github.com/orkestral/SuperDB/issues"
+    }
+}
