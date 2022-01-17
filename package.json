@@ -1,6 +1,6 @@
 {
     "name": "superdb.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "SuperDB is a javascript library with json based database",
     "main": "./src/index.js",
     "types": "./index.d.ts",
