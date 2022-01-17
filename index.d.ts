@@ -17,6 +17,11 @@ declare module 'superdb.js' {
          * Specifies if plain objects are returned instead of SuperDBObjects
          */
         raw?: boolean;
+
+        /**
+         * Set filename of file
+         */
+         filename?: string;
     }
 
     /**
