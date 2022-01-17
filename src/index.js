@@ -46,7 +46,7 @@ class SuperDB {
         Object.defineProperty(this, '_options', {
             value: {
                 ...options,
-                file: path.join(options.dir, `${options.name}.json`)
+                file: path.join(options.dir, `${options.filename ? options.filename : options.name}.json`)
             }
         });
 

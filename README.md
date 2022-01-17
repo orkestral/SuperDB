@@ -28,7 +28,8 @@ const SuperDB = require("superdb.js");
 const db = new SuperDB({
     dir: __dirname,
     name: "database",
-    raw: false // Defines if SuperDB Objects will be returned (optional, default: false)
+    raw: false, // Defines if SuperDB Objects will be returned (optional, default: false)
+    filename: "" // Filename (optional, default: null)
 });
 ```
 
@@ -41,7 +42,8 @@ import SuperDB from "superdb.js";
 const db = new SuperDB<'full'>({
     dir: __dirname,
     name: "database",
-    raw: false // Defines if SuperDB Objects will be returned (optional, default: false)
+    raw: false, // Defines if SuperDB Objects will be returned (optional, default: false)
+    filename: "" // Filename (optional, default: null)
 });
 ```
 

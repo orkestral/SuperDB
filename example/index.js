@@ -4,7 +4,9 @@ const SuperDB = require('../src');
 
 const db = new SuperDB({
     dir: __dirname,
-    name: 'test'
+    name: 'test',
+    raw: false,
+    filename: 'filename' // Filename (optional, default: null)
 });
 
 console.log('Object creation (only if it doesn\'t exist)');
