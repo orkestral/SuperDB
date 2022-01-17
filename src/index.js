@@ -32,7 +32,7 @@ class SuperDB {
         if (!options.name) throw new SuperDBError('The name of the database is required');
         if (typeof options.dir !== 'string') throw new SuperDBError('The directory path must be an string');
         if (typeof options.name !== 'string') throw new SuperDBError('The name of the database must be an string');
-        if (!fs.existsSync(options.dir)) throw new SuperDBError('The directory must be valid');
+        if (!fs.existsSync(options.dir)) fs.mkdirSync(options.dir);
         if (options.name.length < 1) throw new SuperDBError('The name must have more of one character');
 
         options.raw = !!options.raw;
