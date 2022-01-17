@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.0.2 - Add Param
+- Add Param Filename
+  
 ## 1.0.1 - Create DIR
 - Creating of DIR
 

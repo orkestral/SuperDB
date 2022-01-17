@@ -11,13 +11,13 @@
 
 "Database" in JSON (Node.JS Library).
 
-**Released v1.0.1**. See [CHANGELOG](https://github.com/orkestral/SuperDB/blob/master/CHANGELOG.md).
+**Released v1.0.2**. See [CHANGELOG](https://github.com/orkestral/SuperDB/blob/master/CHANGELOG.md).
 
 
 ## Installation
 - `npm install superdb.js --save`.
 
-_I recommend not using versions lower than **1.0.1** or being aware of updates to the library._
+_I recommend not using versions lower than **1.0.2** or being aware of updates to the library._
 
 
 ## Usage
